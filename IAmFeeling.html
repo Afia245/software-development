@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/e3b310c377.js" crossorigin="anonymous"></script>
+    <Style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </Style>
+</head>
+
+<body class="bg-[#faf5f0]">
+    <header>
+        <!-- Nav section  -->
+        <div class="navbar  ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                </div>
+                <a href="index.html" class="btn btn-ghost text-3xl">Swap</a>
+            </div>
+            <div class="navbar-end gap-10">
+                <a href="iamfeeling.html" class="btn bg-[#587044] text-white"> what you feel </a>
+                <a href="professional.html" class="btn btn-wide bg-yellow-300 ">Our professionals</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mb-16 mt-10">
+            <h1 class="text-4xl font-semibold text-center ">i am feeling...</h1>
+        </div>
+        <section class=" grid grid-cols-4 gap-10 items-center m-14">
+            <div class="card  bg-[#E8E5F3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sleeping_1830852.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Sad</h2>
+                  <p>Are you sad?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_6.showModal()">Click</button>
+                          <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"> <span class="font-bold text-red-300">
+                                    Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
+                                  </span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#E5ECF3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Anxiety</h2>
+                  <p>Feeling anxiety?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_9.showModal()">Click</button>
+                          <dialog id="my_modal_9" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4 "><span class="font-bold text-red-300">
+                                    Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa Rabbu-l-ʿArshi-l-ʿaẓīm.
+                                  </span> <br>
+      
+                                  ” Allah is sufficient for me. There is no god worthy of worship except Him. I have placed my trust in Him only and He is the Lord of the Magnificent Throne.””</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#F6EED9] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Depresed</h2>
+                  <p>Feeling low?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_8.showModal()">Click</button>
+                          <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#FBE9E6] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Stress</h2>
+                  <p>Feeling stressed?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_1.showModal()">Click</button>
+                          <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+                 
+                </div>
+              </div>
+              <div class="card  bg-[#E8E5F3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sleeping_1830852.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Sleep</h2>
+                  <p>Are you sad?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_11.showModal()">Click</button>
+                          <dialog id="my_modal_11" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"> <span class="font-bold text-red-300">
+                                    Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
+                                  </span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#E5ECF3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Nervous</h2>
+                  <p>Feeling anxiety?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_12.showModal()">Click</button>
+                          <dialog id="my_modal_12" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4 "><span class="font-bold text-red-300">
+                                    Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa Rabbu-l-ʿArshi-l-ʿaẓīm.
+                                  </span> <br>
+      
+                                  ” Allah is sufficient for me. There is no god worthy of worship except Him. I have placed my trust in Him only and He is the Lord of the Magnificent Throne.””</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#F6EED9] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lonelyj</h2>
+                  <p>Feeling low?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_13.showModal()">Click</button>
+                          <dialog id="my_modal_13" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#FBE9E6] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Hurt</h2>
+                  <p>Feeling stressed?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_22.showModal()">Click</button>
+                          <dialog id="my_modal_22" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.</span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+                 
+                </div>
+              </div>
+              <div class="card  bg-[#E8E5F3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sleeping_1830852.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Insecure</h2>
+                  <p>Are you insecure?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_21.showModal()">Click</button>
+                          <dialog id="my_modal_21" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"> <span class="font-bold text-red-300">
+                                    Allahumma ijalnee araa almawaahib wa nuQaaT quwwat allazeena wada3tahu fee nafsee.
+                                  </span> <br>
+      
+                                    “Oh Allah, make me see the talents and strengths you have put inside of me.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#E5ECF3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Impatient</h2>
+                  <p>Feeling impatient?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_20.showModal()">Click</button>
+                          <dialog id="my_modal_20" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4 "><span class="font-bold text-red-300">
+                                    Ya Saboor Sabbirnee alaa maa balautanee wa imtaHantanee.
+                                  </span> <br>
+      
+                                  ” Oh The Most Patient, enable me to be patient upon whatever you afflict and test me with.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#F6EED9] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Love</h2>
+                  <p>Feeling love?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_19.showModal()">Click</button>
+                          <dialog id="my_modal_19" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allahumma Ij3alnee min AlTayyibaat wa Urzuqnee min alTayyibeen</span> <br>
+      
+                                    “Oh Allah make me from amongst the pure women and grant me from the pure men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#FBE9E6] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Jealous</h2>
+                  <p>Feeling jealous?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_18.showModal()">Click</button>
+                          <dialog id="my_modal_18" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allahumma Tahhir Qalbee min kulli suu, Allahumma Tahhir Qalbee min kulli maa yubaGGiDuk. Allahumma Tahhir Qalbee min kulli Gillin wa HiQdin wa Hasadin wa kibr.</span> <br>
+      
+                                    Oh Allah, clean away all forms of evil from my heart. Oh Allah, clean my heart and remove everything that displeases you. Oh Allah, clean my heart of all every form of bitterness, hard feelings, and jealousy.</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+                 
+                </div>
+            </div>
+            <div class="card  bg-[#E8E5F3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sleeping_1830852.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lazy</h2>
+                  <p>Are you feel lazy?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_17.showModal()">Click</button>
+                          <dialog id="my_modal_17" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"> <span class="font-bold text-red-300">
+                                    Allāhumma innī aʿūdhu bika min-l-hammi wa-l-ḥazan, wa aʿūdhu bika min-l-ʿajzi wa-l-kasal, wa aʿūdhu bika min-l-jubni wa-l-bukhl, wa aʿūdhu bika min ghalabati-d-dayni wa qahri-r-rijāl.
+                                  </span> <br>
+      
+                                    “O Allah, I seek Your protection from anxiety and grief. I seek Your protection from inability and laziness. I seek Your protection from cowardice and miserliness, and I seek Your protection from being overcome by debt and being overpowered by men.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#E5ECF3] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/fear_7145123.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lost</h2>
+                  <p>Are lost anything?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_12.showModal()">Click</button>
+                          <dialog id="my_modal_12" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4 "><span class="font-bold text-red-300">
+                                    Ḥasbiya-Allāhu lā ilāha illā Huwa, ʿalayhi tawakkaltu, wa Huwa Rabbu-l-ʿArshi-l-ʿaẓīm.
+                                  </span> <br>
+      
+                                  ” Allah is sufficient for me. There is no god worthy of worship except Him. I have placed my trust in Him only and He is the Lord of the Magnificent Throne.””</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#F6EED9] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/sad_5065522.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Weak</h2>
+                  <p>Feeling weak?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_16.showModal()">Click</button>
+                          <dialog id="my_modal_16" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā Ant, Allāhumma innī aʿūdhu bika mina-l-kufri wa-l-faqr, wa aʿūdhu bika min ʿadhābi-l-qabr, lā ilāha illā Ant.</span> <br>
+      
+                                    “O Allah, grant me well-being in my body. O Allah, grant me well-being in my hearing. O Allah, grant me well-being in my sight. There is no god worthy of worship except You. O Allah, I seek Your protection from disbelief and poverty and I seek Your protection from the punishment of the grave. There is no god worthy of worship except You.”</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+      
+                </div>
+              </div>
+              <div class="card  bg-[#FBE9E6] shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img class="w-[40%]" src="images/stress_10919744.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Curious</h2>
+                  <p>Feeling curious?</p>
+                  <button class="btn btn-outline btn-success   text-white "
+                              onclick="my_modal_15.showModal()">Click</button>
+                          <dialog id="my_modal_15" class="modal modal-bottom sm:modal-middle">
+                              <div class="modal-box">
+                                  <h3 class="font-bold text-lg">Assalamualikum!</h3>
+                                  <p class="py-4"><span class="font-bold text-red-300">Allahumma innee a3uzubika min sharri sam3ee, wa min sharri baSaree, wa min sharri lisaanee, wa min sharri qalbee, wa min sharri minnee.</span> <br>
+      
+                                    "Oh Allah, I seek protection in you from the evil of my hearing, from the evil of my sight, from the evil of my tongue, from the evil of my heart, and from the evil of myself."</p>
+                                  <div class="modal-action">
+                                      <form method="dialog">
+                                          <!-- if there is a button in form, it will close the modal -->
+                                          <button class="btn">Close</button>
+                                      </form>
+                                  </div>
+                              </div>
+                          </dialog>
+                 
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer p-10 bg-[#FFF8F2] font-bold">
+
+        <div class="ml-10">
+            <h1 class="text-3xl "><a href="index.html">Swap</a></h1>
+            <p class="">A Journey of Understanding, Healing <br>and Resilience in a Chaotic World.</p>
+        </div>
+        <div class="ml-16">
+            <h6 class="">Download Our App</h6>
+            <div class="grid grid-flow-col gap-4 text-xs">
+                <a><img src="images/playstore.png" alt=""></a>
+
+                <a>Get it on <br> Google play Store</a>
+            </div>
+
+        </div>
+
+
+    </footer>
+</body>
